@@ -1,0 +1,16 @@
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1em;
+    overflow-x: hiddens ;
+} 
+
+.wrapper>article{
+    background-color: #eee;
+    padding: 1em;
+}
+
+.wrapper>article:nth-child(odd){
+    background-color: aquamarine;
+}
